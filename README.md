@@ -14,7 +14,7 @@ The program versions used in the experiment are as follows (You can get their of
 In order to reduce the size of GitHub uploaded files, only some key files are uploaded. If necessary, please download the official version in the above link and replace it with the files provided by this repository. A brief introduction to the files provided is listed below: (You can skip this section and see How to Use It)
 
 ### mpeg-pcc-tmc2-master
-This folder contains TMC2-v18.0 program, please pay attention to the following points: 
+This folder contains TMC2-v18.0 program, please pay attention to the following points:  
 1.Under the folder "/mpeg-pcc-tmc2-master/bin/Teacher_5432/PccAppEncoder.exe" is the EXE file of our method.Its threrthold is 5432 as to the paper explain.The Specific code can refer to "dependencies/HM-16.20+SCM-8.8/source/Lib/TLibEncoder/TEncCu.cpp".  
 2.If you want to generate a new EXE file,you can mkdir a folder naming "build" and cmake it under this folder.THe patch file for HM in "/mpeg-pcc-tmc2-master/dependencies" is already Executed and other video software sush as VTM is unnecessary.  
 3. The cfg files under "/mpeg-pcc-tmc2-master/cfg/sequence" has been modified according to the below shell，please ensure that the point cloud files of 8iVSLF-vox10 or owlii-vox11 officially provided by MPEG are extracted into ply folder according to the default path, if you want to use our shell.  
@@ -30,7 +30,7 @@ This folder contains TMC2-v18.0 program, please pay attention to the following p
 The reconstruction results are saved in the __output folder and the console output is saved in the __statisticdata folder.  
 
 ### other file folders
-You need to prepare the input file and modify the path in "/__batchProcessing_AI/*.sh", output stores the __output file of the point cloud, and __statisticdata stores the console output of the point cloud.   
+You need to prepare the input file and modify the path in "/__batchProcessing_AI/*.sh", output stores the __output file of the point cloud, and __statisticdata stores the console output of the point cloud.
 <br/>These three files ensure that the script provided by us can run normally on your computer. If you don't want to use the script provided by us, you can set it according to your own preferences.
 
 ## How to Use It
