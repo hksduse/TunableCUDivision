@@ -22,11 +22,11 @@ This folder contains TMC2-v18.0 program, please pay attention to the following p
 ### external
 1. HDRTools-v0.18, executable file HDRConvert.exe has been generated under “/external/HDRTools-v0.18/bin”.Its role is loading 3-D point cloud file.
 
-###__batchProcessing_AI
+### __batchProcessing_AI
 1. Under this folder, we provide some scripts used for running our method in "/mpeg-pcc-tmc2-masterbin/Teacher_5432/PccAppEncoder.exe". Please modify the path in the shell file according to the actual deployment of your computer. In fact, you only modify the input file path in line 7. If there is no modification after downloading this repository, run this shell after correctly deploying the input file to start the operation of the <b>sequence soldier</b>. 
 2.If your operation system is windows,please run the __runme_windows1.bat.
 
-###__statisticData && __output
+### __statisticData && __output
 1.The reconstruction results are saved in the __output folder and the console output is saved in the __statisticdata folder.
 
 ### other file folders
