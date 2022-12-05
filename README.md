@@ -35,5 +35,5 @@ You need to prepare the input file and modify the path in "/__batchProcessing_AI
 <br/>These three files ensure that the script provided by us can run normally on your computer. If you don't want to use the script provided by us, you can set it according to your own preferences.
 
 ## How to Use It
-1.Please modify all the script files in "/__batchProcessing_AI/*.sh", replacing the "SRCDIR" with your computer ply file's path in line 7. Then running the five script files. If your operation system is windows,please run the __runme_windows1.bat.  
+1.Please modify all the script files in "/__batchProcessing_AI/*.sh", replacing the "SRCDIR" with your computer ply file's path in line 7. Then running the five script files. If your operation system is windows, please run the __runme_windows1.bat.  
 2.You can generate a new EXE file for other thresholds, mkdir a folder naming "build" under the folder "/mpeg-pcc-tmc2-master/" and cmake it. changing the threshold in "/mpeg-pcc-tmc2-master/dependencies/HM-16.20+SCM-8.8/source/Lib/TLibEncoder/TEncCu.cpp", so a new EXE file can be generated to check the data in the paper. Incidentally，the name of the generated EXE file should corresponds to the shell file in line 14.  
